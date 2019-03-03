@@ -60,3 +60,11 @@ target/
 
 # pyenv python configuration file
 .python-version
+
+# Visual Code Studio files
+settings.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+.idea/
