@@ -10,10 +10,10 @@ Tests for `clean` module.
 
 import pytest
 
-from contextlib import contextmanager
+# from contextlib import contextmanager
 from click.testing import CliRunner
 
-from clean import clean
+# from clean import clean
 from clean import cli
 
 
@@ -31,6 +31,8 @@ def test_content(response):
     """
     # from bs4 import BeautifulSoup
     # assert 'GitHub' in BeautifulSoup(response.content).title.string
+
+
 def test_command_line_interface():
     runner = CliRunner()
     result = runner.invoke(cli.main)
